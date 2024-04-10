@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  margin-top: 30px;
+}
+.mainP {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+  margin: 20px;
+}
+
+.mainDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.mainDiv_one {
+  width: 270px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.mainDiv_one:hover {
+  width: 263px;
+  height: 430px;
+  box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+}
+
+.mainDiv_one:hover .hover_text {
+  display: block;
+}
+.mainDiv_one:hover .hover_div {
+  display: block;
+  display: flex;
+  margin: 10px;
+}
+.mainDiv_one:hover .hover_button {
+  display: block;
+  margin: 20px auto;
+}
+
+.hover_div {
+  width: 90%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 5px auto;
+  display: none;
+}
+.hover_div span p {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10.55px;
+  text-align: left;
+  color: rgba(196, 196, 196, 1);
+}
+.hover_div span {
+  margin: auto;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 10.55px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+}
+.hover_button {
+  width: 223px;
+  height: 40px;
+  background: rgba(36, 84, 98, 1);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.23px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  display: none;
+}
+.hover_text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+  margin: 10px 15px;
+  display: none;
+}
+
+.mainDiv_one img {
+  margin-top: 30px;
+}
+.mainDiv_one_text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.mainDiv_one_text_two {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12.89px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+  margin-left: 10px;
+}
+.mainDiv_one_price {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+  margin: 10px;
+}
